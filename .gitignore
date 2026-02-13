@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+*.test.tmp
+
+# Security Guard config (user's local config)
+# Don't commit user's password hash!
+.openclaw-security-guard/
+
+# Reports (may contain sensitive info)
+security-report.*
+*.report.html
+*.report.json
