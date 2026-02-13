@@ -326,7 +326,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 // ============================================================
 
 export async function startDashboard(options = {}) {
-  const { port = 18790, gatewayUrl = 'ws://127.0.0.1:18789', openBrowser = true } = options;
+  const { port = 18790, host = '127.0.0.1', gatewayUrl = 'ws://127.0.0.1:18789', openBrowser = true } = options;
   
   const auth = new AuthManager();
   const monitor = new SecurityMonitor();
@@ -420,12 +420,13 @@ export async function startDashboard(options = {}) {
   });
   
   // Start
-  server.listen(port, '127.0.0.1', () => {
+  server.listen(port, host, () => {
+    const _displayHost = host === '0.0.0.0' ? 'all interfaces' : host;
     console.log(`
 ╔═══════════════════════════════════════════════════════════════╗
 ║  🛡️  OpenClaw Security Guard - Dashboard                      ║
 ║                                                               ║
-║  URL:     http://localhost:${port}                              ║
+║  URL:     http://${host === '0.0.0.0' ? '<your-ip>' : 'localhost'}:${port}                              ║
 ║  Status:  ${auth.isSetupComplete() ? '🔐 Password protected' : '⚠️  Setup required'}                              ║
 ║                                                               ║
 ║  Author:  ${AUTHOR}                               ║

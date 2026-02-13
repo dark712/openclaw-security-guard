@@ -187,15 +187,17 @@ program
   .command('dashboard')
   .description('Start the real-time security dashboard')
   .option('-p, --port <port>', 'Dashboard port', '18790')
+  .option('-H, --host <host>', 'Host to bind (use 0.0.0.0 for remote access)', '127.0.0.1')
   .option('-g, --gateway <url>', 'OpenClaw Gateway URL', 'ws://127.0.0.1:18789')
   .option('--no-browser', 'Don\'t open browser automatically')
   .action(async (options) => {
     const config = await loadConfig(program.opts().config);
-    
+
     console.log(BANNER);
-    
+
     await startDashboard({
       port: parseInt(options.port),
+      host: options.host,
       gatewayUrl: options.gateway,
       openBrowser: options.browser,
       config
