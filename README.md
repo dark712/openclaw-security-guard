@@ -26,6 +26,13 @@
   Built by <a href="https://github.com/miloudbelarebia">Miloud Belarebia</a> at <a href="https://2pidata.com">2PiData</a> &mdash; for the <a href="https://github.com/openclaw/openclaw">OpenClaw</a> community.
 </p>
 
+<p align="center">
+  <a href="https://github.com/openclaw/openclaw/pull/17273"><img src="https://img.shields.io/badge/OpenClaw%20PR-%2317273%20Open-purple?style=for-the-badge&logo=github" alt="OpenClaw PR #17273" /></a>
+  <a href="https://github.com/openclaw/openclaw/discussions/17275"><img src="https://img.shields.io/badge/Discussion-%2317275-blue?style=for-the-badge&logo=github" alt="OpenClaw Discussion" /></a>
+</p>
+
+> **Upstream integration:** The core runtime guardrails from this tool are being integrated as an official OpenClaw extension — see [PR #17273](https://github.com/openclaw/openclaw/pull/17273) and [Discussion #17275](https://github.com/openclaw/openclaw/discussions/17275). This standalone CLI tool will continue to be maintained for additional features (dashboard, secrets scanning, auto-hardening, dependency auditing).
+
 ---
 
 ## The Problem
